@@ -1,0 +1,28 @@
+.zodiac {
+    padding: 100px;
+    color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 100px;
+  }
+  
+  .zodiac img {
+    width: 200px;
+  }
+  
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(211, 211, 211);
+    color:rgb(8, 11, 14)
+}
+
+    span {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(211, 211, 211);
+    color:rgb(8, 11, 14)
+  }
