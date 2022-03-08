@@ -4,7 +4,7 @@ import './Main.css';
 
 import background from './background.png';
 // import Zodiac from '../ZodiacCard/ZodiacCard.js';
-// import { zodiacs } from '../../data.js';
+import { zodiacs } from '../../data.js';
 
 export default function Main() {
   return (
