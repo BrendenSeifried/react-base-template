@@ -1,7 +1,5 @@
 .zodiac {
-    width: 50px;
     padding: 100px;
-    position: absolute;
     color: var(--color1);
     display: flex;
     flex-direction: column;
@@ -12,11 +10,19 @@
   }
   
   .zodiac img {
-    width: 100px;
+    width: 200px;
   }
   
-  .zodiac .name {
+h1 {
     text-transform: uppercase;
     font-weight: bold;
+    background-color: rgb(211, 211, 211);
+    color:rgb(8, 11, 14)
+}
+
+    span {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(211, 211, 211);
+    color:rgb(8, 11, 14)
   }
-  

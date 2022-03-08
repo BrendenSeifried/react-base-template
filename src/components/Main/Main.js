@@ -10,9 +10,8 @@ import { zodiacs } from '../../data.js';
 
 export default function Main() {
   return (
-    <div className="main" style={{ backgroundImage: `url(${ background })` }}>
-      <main />
+    <main style={{ backgroundImage: `url(${ background })` }}>
       {zodiacs.map ((data) => (<Zodiac key={data.name} {...data}/>))}
-    </div>
+    </main>
   );
 }
