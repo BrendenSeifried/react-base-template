@@ -38,6 +38,8 @@ function App() {
     <div className="App">
     
       <Main />
+      <Footer />
+      <Header />
       
     </div>
   );
